@@ -1,0 +1,26 @@
+Aplikasi crud master ini adalah aplikasi yang di buat untuk penggunaan pengembangan sistem informasi berbasis web ,sehingga memudahkan dalam proses pengerjaan yang berkaitan dengan CREATE , READ, UPDATE , DELETE (CRUD) data di table di database,, pilihan untuk pembuatan table ini ada dua yang pertama:
+
+ 1. Serverside datatable 
+    serveride datatabel adalah penggunaan data yang di tampilkan menggunakan plugin datatable request data menggunakan json , dan ajax
+ 2. Regular table
+
+ Aplikasi ini ditambah extensi export data via pdf, excel, word setiap pelaporan dapat di eksport ke dokument tersebut.
+ 
+
+ Adapun langkah - langkah untuk konfigurasi aplikasi adalah : 
+  
+ 1. Extract file sourcode zip pada folder root server 
+ 2. Kemudian buat database pada database mysql 
+ 3. Import file sql yang di ekstract tadi ke database sql 
+ 4. Buka notepad editor (sublimetext , notepad ++ ) atau yang lain
+ 5. silahkan edit database pada folder beikut : 
+    c:\xampp\htdocs\crud_master\application\config\database.php
+ 6. silahkan sesuaikan username dan password serta host untuk koneksi database 
+    contoh :
+
+    'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'rn_barang',
+	'dbdriver' => 'mysqli',
+7. exit , selesai.
